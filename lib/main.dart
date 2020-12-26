@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Chit Chat',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -51,7 +51,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  
+
 
   @override
   Widget build(BuildContext context) {
@@ -70,8 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
-        child: Text('Hello world'
-        ),
+        child: Text('Hello world'),
       ),
     );
   }
